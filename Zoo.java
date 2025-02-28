@@ -9,15 +9,22 @@ public class Zoo
 {
     // instance variables - replace the example below with your own
     private ArrayList<Bird> zooBird;
-
-    /**
-     * Constructor for objects of class Zoo
-     */
-    /*int countBlueBirdsZoo(){
-        int i = 0
-            for (Bird : zooBirds){
-                that contains.("blue")
-                i++
+    
+    public Zoo(){
+        zooBird = new ArrayList<Bird>();
+        zooBird.add(new Bird("blue", "parrot", 2));
+        zooBird.add(new Bird("blue", "parrot", 2));
+        zooBird.add(new Bird("blue", "parrot", 2));
+        zooBird.add(new Bird("blue", "parrot", 2));
+    }
+    
+    public int countBlueBirdsZoo(){
+        int i = 0;
+            for (Bird bird: zooBird){
+                if (bird.color().equals("blue")){
+                        i++;
+                }
             }
-        }*/
+            return i;
+        }
 }

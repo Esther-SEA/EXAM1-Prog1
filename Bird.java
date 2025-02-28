@@ -22,6 +22,10 @@ public class Bird
         this.age = age;
     }
 
+    public String color(){
+        return color;
+    }
+    
     /**
      * An example of a method - replace this comment with your own
      *
